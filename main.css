@@ -1,31 +1,51 @@
 body {
     font-family: monospace;
     background: var(--green);
-} ul {
+}
+
+ul {
     font-family: helvetica;
-} li {
+}
+
+li {
     list-style: circle;
-} .list {
+}
+
+.list {
     list-style: square;
-} .light-theme {
+}
+
+.light-theme {
     --bg: var(--green);
     --fontColor: var(--black);
-} .dark-theme {
-        --bg: var(--black);
-        --fontcolor: var(--green);
-} :root {
+}
+
+.dark-theme {
+    --bg: var(--black);
+    --fontcolor: var(--green);
+}
+
+:root {
     --green: #00FF00;
     --white: #ffffff;
     --black: #000000;
-} * {
+}
+
+* {
     color: var(--fontcolor);
     font-family: helvetica;
-} body {
+}
+
+body {
     background: var(--bg);
-} .btn {
+}
+
+.btn {
     color: var(--btnfontColor);
     background-color: var(--btnBg);
-} .btn {   
+}
+
+.btn {
     position: absolute;
     top: 20px;
     left: 250px;
@@ -35,13 +55,20 @@ body {
     border: none;
     color: var(--btnfontColor);
     background-color: var(--btnBg);
-} .btn:focus {outline-style: none; } 
+}
+
+.btn:focus {
+    outline-style: none;
+}
+
 .light-theme {
     --bg: var(--green);
     --fontColor: var(--black);
     --btBg: var(--black);
     --btnFontColor: var(--white);
-} .dark-theme {
+}
+
+.dark-theme {
     --bg: var(--black);
     --fontColor: var(--green);
     --btBg: var(--white);
